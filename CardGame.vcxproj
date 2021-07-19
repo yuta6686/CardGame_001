@@ -160,8 +160,11 @@
     <ClCompile Include="CardGame.cpp" />
     <ClCompile Include="CardHand.cpp" />
     <ClCompile Include="Deck.cpp" />
+    <ClCompile Include="Field.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="ActionCommand.h" />
+    <ClInclude Include="ActionCommand_Fireball.h" />
     <ClInclude Include="Card.h" />
     <ClInclude Include="CardCreateMenu.h" />
     <ClInclude Include="CardCreateMenu_Magic.h" />
@@ -173,6 +176,8 @@
     <ClInclude Include="Card_Minion.h" />
     <ClInclude Include="Deck.h" />
     <ClInclude Include="CardCreateMenu_Minion.h" />
+    <ClInclude Include="Field.h" />
+    <ClInclude Include="Player.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

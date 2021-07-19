@@ -21,6 +21,13 @@ public:
 
 	int GetAttack(void) const { return attack_; }
 	int GetLife(void) const { return life_; }
+
+	void Damage(int damage)override {
+		life_ -= damage;
+		if (life_ < 0) {
+			life_ = 0;
+		}
+	}
 };
 
 #endif // CARD_MINION_H_

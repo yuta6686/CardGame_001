@@ -18,8 +18,23 @@ void CardCreateMenu::InputName(void)
 
 void CardCreateMenu::InputCost(void)
 {
-	cout << "コストを入力して下さい > ";
-	cin >> cost_;
+	while (true) {
+		cout << "コストを入力してください　>" << endl;
+		string s;
+
+		cin >> s;
+
+		int num = atoi(s.c_str());
+
+		cout << num << endl;
+
+		if (num<=10000) {
+			cost_ = num;
+			return;
+		}
+		cout << "10000以下でちゃんと記入してください" << endl;
+	}
+	return;
 }
 
 

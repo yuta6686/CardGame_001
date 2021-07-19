@@ -78,11 +78,17 @@ void DeckCreateMenu::createMenu()
     cout << endl;
 
     int card_type_num = 0;
+	string s_card_type_num;
 
     for (;;) {
         cout << "作成するカードは [0]:ミニオンカード, [1]:マジックカード\n";
         cout << "> ";
-        cin >> card_type_num;
+        cin >> s_card_type_num;
+
+		card_type_num = atoi(s_card_type_num
+			.c_str());
+
+		cout << card_type_num << endl;
 
         if (card_type_num < 0 || card_type_num >= Card::Max) {
             cout << "不正な数値です。\n";

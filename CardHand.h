@@ -10,9 +10,17 @@ public:
 	CardHand();
 	~CardHand() {}
 
-	bool AddCard(Card* pCard);            // 手札にカードを加える
-	Card* PutOutCard(int index);          // 手札からカードを取り出す
-	const Card* GetCard(int index) const; // カード情報表示などに使う
+//  手札にカードを加える
+	bool AddCard(Card* pCard);            
+
+//  手札からカードを取り出す
+	Card* PutOutCard(int index);          
+
+//  カード情報表示などに使う
+	const Card* GetCard(int index) const;
+
+//	ゲッター
+	int GetCardCount() const { return card_count_; }
 
 private:
 	static const int MAX_CARD_ = 5;

@@ -1,11 +1,35 @@
 ﻿  CardCreateMenu.cpp
   CardCreateMenu_Magic.cpp
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12): error C2259: 'Card_Magic': 抽象クラスをインスタンス化できません。
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card_Magic.h(7): message : 'Card_Magic' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12): message : 次のメンバーが原因です:
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12): message : 'void Card::Damage(int)': は抽象型です
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card.h(54): message : 'Card::Damage' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12,30): error C2259: 'Card_Magic': 抽象クラスをインスタンス化できません。
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card_Magic.h(7): message : 'Card_Magic' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12,30): message : 次のメンバーが原因です:
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12,30): message : 'void Card::Damage(int)': は抽象型です
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card.h(54): message : 'Card::Damage' の宣言を確認してください
   CardCreateMenu_Minion.cpp
   CardDisplay.cpp
   CardDisplay_DeckList.cpp
   DeckCreateMenu.cpp
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12): error C2259: 'Card_Magic': 抽象クラスをインスタンス化できません。
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card_Magic.h(7): message : 'Card_Magic' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12): message : 次のメンバーが原因です:
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12): message : 'void Card::Damage(int)': は抽象型です
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card.h(54): message : 'Card::Damage' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12,30): error C2259: 'Card_Magic': 抽象クラスをインスタンス化できません。
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card_Magic.h(7): message : 'Card_Magic' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12,30): message : 次のメンバーが原因です:
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\CardCreateMenu_Magic.h(12,30): message : 'void Card::Damage(int)': は抽象型です
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Card.h(54): message : 'Card::Damage' の宣言を確認してください
   CardGame.cpp
   CardHand.cpp
   Deck.cpp
+  Field.cpp
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Field.cpp(33,1): error C2556: 'const Card *Field::GetCard(int)': オーバーロード関数は、'Card *Field::GetCard(int)' と戻り値の型のみが異なります。
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Field.h(16): message : 'Field::GetCard' の宣言を確認してください
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Field.cpp(32,20): error C2373: 'Field::GetCard': 再定義されています。異なる型修飾子です。
+C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\CardGame\Field.h(16): message : 'Field::GetCard' の宣言を確認してください
   コードを生成中...
-  CardGame.vcxproj -> C:\Users\yuta2\Pictures\Camera Roll\4月19日～\CL22\CardGame_new\CardGame_new\Debug\CardGame.exe
